@@ -33,21 +33,21 @@ html{
     scroll-behavior: smooth;
 }
 #code {
-      border-radius: 5px;
-      width:670px;
-      margin: 0 auto;
-      padding-top:15px;
-      font-size:30px;
-      background: #ccc;
-      height: 100px;
-      text-align: left;
-      font-size:15px;
-      margin-top: 100px;
+    border-radius: 5px;
+    width:670px;
+    margin: 0 auto;
+    padding-top:15px;
+    font-size:30px;
+    background: #ccc;
+    height: 100px;
+    text-align: left;
+    font-size:15px;
+    margin-top: 100px;
 }
 #terminal {
     width:670px;
     padding: 40px;
-    height: 720px;
+    height: 790px;
     margin:0 auto;
     background: #282A36;
     color: #50fA7B;
