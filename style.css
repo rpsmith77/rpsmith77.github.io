@@ -6,15 +6,18 @@ body{
 }
 .center {
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1{
     color: #3D405B;
 }
-.About{
-    margin-top: 20px;
+h2{
+    text-align: center;
 }
-.About p{
-    margin-top: 20px;
+#AboutMe{
+    margin-top: 800px;
 }
 .header{
     position: fixed;
