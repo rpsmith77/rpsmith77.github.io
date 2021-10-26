@@ -48,7 +48,7 @@ html{
     padding-top:15px;
     font-size:30px;
     background: #ccc;
-    height: 120px;
+    height: 100px;
     text-align: left;
     font-size:15px;
     margin-top: 100px;
@@ -56,7 +56,7 @@ html{
 #terminal {
     width:670px;
     padding: 40px;
-    height: 790px;
+    height: 810px;
     margin:0 auto;
     background: #282A36;
     color: #50fA7B;
