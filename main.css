@@ -322,15 +322,6 @@ h2 {
   font-family: "Lato", sans-serif;
 }
 
-/* .CV-page ul {
-  list-style: none;
-}
-
-.CV-page li::before {
-  content: "- ";
-  color: #fca311;
-} */
-
 @media all and (max-width: 500px) {
   .CV-page {
     padding: 0 1em;
