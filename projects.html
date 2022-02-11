@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <meta property="og:title" content="Ryan Smith" />
+    <meta property="og:description" content="Ryan Smith's Portfolio Website" />
+    <meta property="og:image" content="static/logo.svg" />
+    <link rel="shortcut icon" href="static/logo.svg">
+</head>
+
+
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+    $(function () {
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+<!--end of Navigation bar-->
+
+<body>
+    <div class="project-reveal">
+        <div>
+            <h1 class="reveal blue">My Projects:</h1>
+        </div>
+        <div>
+            <h2 class="reveal purple">The <span style="color: #fca311;">Cool Stuff</span> I make.</h2>
+        </div>
+    </div>
+
+
+    <div class="projects">
+        <!-- RedDictio -->
+        <div class="flex-container">
+            <h1 style="font-size: 4rem; line-height: 1;">RedDictio<br /><span style="font-size: 1.5rem;"><a
+                        href="https://reddictio.com" target="_blank">Website</a>&nbsp;|&nbsp;<a
+                        href="https://github.com/rpsmith77/RedDictio" target="_blank">Github</a></span></h1>
+            <p>Python, Flask, Google Cloud, AWS, Docker, SQL, Keras</p>
+            <img style="margin-left: auto; margin-right: auto;" src="static/reddictio_screenshot.png" width=66.6%>
+            <h3>Utilizing machine learning, to analyze subreddit comments for hate/toxicity.</h3>
+            <p>RedDictio is overall a test of our ability to create a webpage, hook it up to a hosted database, scrape
+                data from reddit, and judge this data using a neural network. It connects to several fields in computing
+                such as Database Design, Data Engineering, Data Science, Machine Learning, Cloud Computing, and Web
+                Development.</p>
+        </div>
+        <div style="padding-top: 10%;"></div>
+        <!-- Senior Project -->
+        <div class="flex-container" id="Military">
+            <h1 style="font-size: 4rem; line-height: 1;">Military-to-Civilian Skill Translation <span
+                    style="font-weight: bold; color: crimson;">(Work In Progress)</span></h1>
+            <p>Python, AWS, NLP, BeautifulSoup, SQL</p>
+            <img style="margin-left: auto; margin-right: auto;" src="static/jeremy-bezanger-2x-dj_r0H9Y-unsplash.jpeg"
+                width=66.6%>
+            <h3>Using real job postings to generate a resume to help veterans transition from military to civilian jobs.
+            </h3>
+            <p><span style="font-weight: bold; font-style: italic; color: crimson;">This is a WIP.</span> Part of my
+                senior project. My teammates and I are creating a system that will take a
+                veterans military history, and compare its skills to skills being sought after in the technology
+                industry. This will then generate a baseline resume, which can then be modified to meet the
+                specifcations and needs of each individual veteran.</p>
+        </div>
+        <div id="GenArt"style="padding-top: 10%;"></div>
+        <!-- Accessible Generative Art -->
+        <div class="flex-container">
+            <h1 style="font-size: 4rem; line-height: 1;">Accessible Generative Art<br /><span
+                    style="font-size: 1.5rem;"><a href="https://devpost.com/software/generative-art-z7swoc"
+                        target="_blank">Hackabull 2021 - Most Impactful Hack Winner</a>&nbsp;|&nbsp;<a
+                        href="https://github.com/rpsmith77/Hackabull_2021" target="_blank">Github</a></span></h1>
+            <p>Python, Hackathon, Award-Wining, Pycairo, SVG, NumPy</p>
+            <img style="margin-left: auto; margin-right: auto;" src="static/generative-example.svg" width=40%>
+            <h3>Randomly generated art that intentionally uses a color-blind-friendly color palette.</h3>
+            <p>Art should be accessible. <a href="https://www.colourblindawareness.org/colour-blindness/"
+                    target="_blank">Approximately
+                    5%</a> of the world has some form of color blindness. Often times, when something is
+                being designed, color blindness is not something taken into consideration. The designers aren't
+                being malicious, people don't always think about issues that don't affect them. My program makes a
+                conscious effort to be
+                inclusive to people with color blindness by using a <a href="https://davidmathlogic.com/colorblind"
+                    target="_blank">color-blind-friendly color
+                    palette</a>. The program randomly generates art and saves it in a .svg file. The background
+                color, number of shapes, and types of shapes are all randomized. By using .svg files, the art has
+                the ability to have lossless scalability.</p>
+        </div>
+        <div style="padding-top: 10%;"></div>
+        <!-- Other Projects -->
+        <h1 style="font-size: 4rem;">Other Projects</h1>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <a href="https://github.com/rpsmith77/ProductionProject" target="_blank">
+                        <header>
+                            <span>Java, JavaFX, Gradle, SQL, OOP</span>
+                            <h2>Production Project</h2>
+                        </header>
+                        <section>
+                            <p>
+                                A prototype for a manufacturing plant. It has a database which stores products that are
+                                producible and stores the record of the production, including the products serial number
+                                and date produced.The purpose of this project is to demonstrate a working knowledge of
+                                concepts like encapsulation, polymorphism, inheritance, and abstraction.
+                            </p>
+                        </section>
+                    </a>
+                    <footer>
+                        <div class="author">
+                            <!-- <p>Ryan Smith</p> -->
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <a href="https://github.com/rpsmith77/Asteroids" target="_blank">
+                        <header>
+                            <span>C++, SFML, OpenGL, OOP</span>
+                            <h2>Asteriods</h2>
+                        </header>
+                        <section>
+                            <p>
+                                Modified version of the classic arcade game Asteroids. Utlilizes SFML and OpenGL to
+                                create the game in C++. Created a simple physics engine for the spaceship, made with
+                                vector math.
+                            </p>
+                        </section>
+                    </a>
+                    <footer>
+                        <div class="author">
+                            <!-- <a href="#">Ryan Smith</a> -->
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <a href="https://github.com/rpsmith77/KnightHacks" target="_blank">
+                        <header>
+                            <span>Python, Pygame, A* Algorithm, Hackathon</span>
+                            <h2>Pathfinding Visualizer</h2>
+                        </header>
+                        <section>
+                            <p>
+                                A path finding visualizer. The user can create starting nodes, ending nodes, and walls.
+                                The program will then show where the program is searching and has searched. After the
+                                ending node is found it will show the shortest path from A to B.
+                            </p>
+                        </section>
+                    </a>
+                    <footer>
+                        <div class="author">
+                            <!-- <a href="#">Ryan Smith</a> -->
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <a href="https://github.com/rpsmith77/AssemblyTrafficLightSim" target="_blank">
+                        <header>
+                            <span>Assembly, Arduino, Atmel Studio</span>
+                            <h2>Traffic Light Simulator</h2>
+                        </header>
+                        <section>
+                            <p>
+                                A functioning traffic light with green, yellow, red, and crosswalk lights.
+                                It utilizes global interrupts, pointer arrays, and timers. It was built with assembly,
+                                and hand wired by me.
+                            </p>
+                        </section>
+                    </a>
+                    <footer>
+                        <div class="author">
+                            <!-- <a href="#">Ryan Smith</a> -->
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <a href="#">
+                        <header>
+                            <span>C++, OpenGL, Classes</span>
+                            <h2>Slope Intercept</h2>
+                        </header>
+                        <section>
+                            <p>
+                                Enter a formula, one point and a slope, or two points, and the program will display the
+                                line and show where/if it intersects the x and y axis.
+                            </p>
+                        </section>
+                    </a>
+                    <footer>
+                        <div class="author">
+                            <!-- <a href="#">Ryan Smith</a> -->
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <a
+                        href="https://github.com/rpsmith77/COP_2001/blob/main/slopeInterceptFinal/slopeInterceptMain.cpp">
+                        <header>
+                            <span>Python, Files, Classes</span>
+                            <h2>Harry Potter Sorting Hat Quiz</h2>
+                        </header>
+                        <section>
+                            <p>
+                                First project I created in my degree program. A quiz that runs in the command prompt
+                                that determines with Hogwarts house you should be sorted into.
+                            </p>
+                        </section>
+                    </a>
+                    <footer>
+                        <div class="author">
+                            <!-- <a href="#">Ryan Smith</a> -->
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+</body>
+
+</html>
