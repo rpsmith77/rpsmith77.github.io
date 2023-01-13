@@ -8,7 +8,7 @@ import Job from "./components/Job";
 export default function About() {
     return (
         <div className={styles.container}>
-            <main>
+            <main className={styles.main}>
                 <div className={styles.profile}>
                     <div className={styles.profilePic}>
                         <Image

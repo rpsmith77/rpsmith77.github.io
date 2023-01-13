@@ -50,7 +50,7 @@ export default function projects() {
 
     return (
         <div className={styles.container}>
-            <main>
+            <main className={styles.main}>
                 <div className={styles.projectHeroContainer}>
                     {/*<h1>The <span className={'colorAccent'}>Cool Stuff</span> I make.</h1>*/}
                     {/*<h1>I&nbsp;<TypingEffect/></h1>*/}
