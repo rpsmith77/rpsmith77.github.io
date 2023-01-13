@@ -25,12 +25,12 @@ export default function About() {
                         <p>
                             In 2022, I graduated from Florida Gulf Coast University with a B.S. in Software Engineering.
                             During my time there, I had some really cool experiences and accomplished a lot. I won the award for the&nbsp;
-                            <a href={'https://devpost.com/software/generative-art-z7swoc'}>
+                            <a className={styles.profileDescLink} href={'https://devpost.com/software/generative-art-z7swoc'}>
                                 Most Impactful Hack at Hackabull 2021
                             </a>
                             . I also had the opportunity to gain valuable real-world experience through my internship. I was able to use the skills I had learned in my classes to develop a
                             a&nbsp;
-                            <Link href={'/projects'}>
+                            <Link className={styles.profileDescLink} href={'/projects'}>
                                 <a>prototype system</a>
                             </Link>
                             &nbsp;to assist veterans in
