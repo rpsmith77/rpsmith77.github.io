@@ -31,7 +31,7 @@ export default function About() {
                             . I also had the opportunity to gain valuable real-world experience through my internship. I was able to use the skills I had learned in my classes to develop a
                             a&nbsp;
                             <Link className={styles.profileDescLink} href={'/projects'}>
-                                <a>prototype system</a>
+                                prototype system
                             </Link>
                             &nbsp;to assist veterans in
                             transitioning from military to civilian jobs. Furthermore, as a learning assistant for both

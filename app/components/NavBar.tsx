@@ -4,7 +4,10 @@ import {usePathname} from "next/navigation";
 import {useEffect, useState} from "react";
 
 export default function NavBar() {
-    const [prevScrollPosition, setPrevScrollPosition] = useState(window.scrollY)
+    const [prevScrollPosition, setPrevScrollPosition] = useState(0);
+    useEffect(()=>{
+        setPrevScrollPosition(window.scrollY);
+    },[])
     const [visible, setVisible] = useState(true);
 
     useEffect(() => {
