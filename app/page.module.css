@@ -1,0 +1,77 @@
+
+.heroSection {
+    min-height: 100vh;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-content: center;
+    cursor: default;
+}
+
+.heroText {
+    /*max-width: 800px;*/
+    margin: auto;
+}
+
+.heroGradientText {
+    color: #fff;
+    background: var(--accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heroNormalText {
+    color: var(--primary);
+    background: var(--primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    filter: invert(16%) sepia(14%) saturate(4193%) hue-rotate(185deg) brightness(90%) contrast(88%);
+}
+
+.contact a {
+    transition: all .2s ease-in-out;
+}
+
+.contact a:hover {
+    border-bottom: 1px solid black;
+    transform: scale(1.2);
+}
+
+/* Source for wave animation https://jarv.is/notes/css-waving-hand-emoji/ */
+.wave { /* wave once on load */
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 1.8s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+/*.wave:hover {*/
+/*    animation-name: wave-animation;  !* Refers to the name of your @keyframes element below *!*/
+/*    animation-duration: 2.5s;        !* Change to speed up or slow down *!*/
+/*    animation-iteration-count: infinite;  !* Never stop waving :) *!*/
+/*    transform-origin: 70% 70%;       !* Pivot around the bottom-left palm *!*/
+/*    display: inline-block;*/
+/*}*/
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+    16.7% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+    33.3% { transform: rotate(-8.0deg) }
+    50% { transform: rotate(14.0deg) }
+    66.6% { transform: rotate(-4.0deg) }
+    83.3% { transform: rotate(10.0deg) }
+    100% { transform: rotate( 0.0deg) }
+}
+
+@media (max-width: 800px) {
+    /*.contact a {*/
+    /*    transform: scale(.8);*/
+    /*}*/
+}
